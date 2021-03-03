@@ -1,7 +1,7 @@
 /**
- * Aby skompilować program kompilatorem języka C należy użyć następującej komendy:
- * gcc -lm -Wall -pedantic rownanie.c
- * Kluczowym elementem powyższej komendy jest opcja -lm, która podczas kompilacji dodaje bibliotekę math.h
+ * Aby skompilować program kompilatorem języka C++ należy użyć następującej komendy:
+ * g++ -Wall -pedantic rownanie.cpp
+ * Kompilator języka C++ automatycznie dodaje bibliotekę math.h (jeśli jest używana)
 **/
 
 #include <stdio.h>
