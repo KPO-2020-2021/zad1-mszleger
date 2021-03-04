@@ -125,7 +125,10 @@ int IloscWielkichLiter(char *Tekst)
 
 int main()
 {
-  char *Napis = "Jak dobrze jest wstac skoro swit. Jutrzenki blask ...";
+  /**
+   * Program wywoływał błąd, ponieważ próbował zmienić znak w stałym ciągu znaków.
+  **/
+  char Napis[] = "Jak dobrze jest wstac skoro swit. Jutrzenki blask ...";
   int IloscSpacji;
   int DlugoscSlowaXXX;
   int IloscMaLiter = 0;
